@@ -1,5 +1,5 @@
 import requests
-from pyrogram import Client as bot
+from pyrogram import Client as Bot
 
 from samantha.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
 from samantha.services.callsmusic import run
