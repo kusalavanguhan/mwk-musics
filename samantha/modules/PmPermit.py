@@ -8,6 +8,6 @@ from samantha.services.callsmusic.callsmusic import client as USER
 async def pmPermit(client: USER, message: Message):
     await USER.send_message(
         message.chat.id,
-        "Hi there, No Hi - No Kooi...🤫 For 🎵 songs Join @mwksongs | For 🎬 Movies Join @movieworldkdy | 🛠 Support Group @redbullfed 😌,
+        "Hi there, No Hi - No Kooi...🤫 For 🎵 songs Join @mwksongs | For 🎬 Movies Join @movieworldkdy | 🛠 Support Group @redbullfed 😌."
     )
     return
