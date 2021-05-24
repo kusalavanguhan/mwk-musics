@@ -5,7 +5,7 @@ from samantha.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
 from samantha.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
-file = open("./etc/foreground.png", "wb")
+file = open("./etc/tg_vc_bot.jpg", "wb")
 file.write(response.content)
 file.close()
 
