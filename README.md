@@ -1,8 +1,6 @@
 # samanthaXcalls
 Powerfull VC music streamer bot for tg
 
-# samanthaXcalls
-
 <h2 align="centre">Team MWK - Samantha X Pytgcalls 🎵</h2>
 
 ### A bot that can play music on telegram group's voice call & download songs & deezer
