@@ -1,2 +1,2 @@
-from samantha.Services.Callsmusic import queues
-from samantha.Services.Callsmusic.callsmusic import pytgcalls, run
+from samantha.services.callsmusic import queues
+from samantha.services.callsmusic.callsmusic import pytgcalls, run
