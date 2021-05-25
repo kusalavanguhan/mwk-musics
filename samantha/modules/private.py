@@ -24,7 +24,7 @@ def _start(client, message):
                         "🛠 Suᴩᴩᴏʀᴛ Gʀᴏᴜᴩ", url=f"https://t.me/redbullfed")
                 ],[
                     InlineKeyboardButton(
-                        "⚙ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url=f"https://t.me/mwksongs")
+                        "⚙ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url=f"https://github.com/shamilhabeebnelli/samanthaXcalls")
                 ]
             ]
         ),
