@@ -14,15 +14,17 @@ def _start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎬 Fɪʟᴍ Gʀᴏᴜᴩ", url=f"https://t.me/movieworldkdY")],
-                [
+                        "🎬 Fɪʟᴍ Gʀᴏᴜᴩ", url=f"https://t.me/movieworldkdY")
+                    InlineKeyboardButton(
+                        "🎵 Mᴜꜱɪᴄ Gʀᴏᴜᴩ", url=f" https://t.me/mwksongs")
+                ],[
                     InlineKeyboardButton(
                         "👨‍🔬 My Dᴇᴠ", url=f"https://t.me/shamilnelli"), 
                     InlineKeyboardButton(
                         "🛠 Suᴩᴩᴏʀᴛ Gʀᴏᴜᴩ", url=f"https://t.me/redbullfed")
                 ],[
                     InlineKeyboardButton(
-                        "🎵 Mᴜꜱɪᴄ Gʀᴏᴜᴩ", url=f"https://t.me/mwksongs")
+                        "⚙ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url=f"https://t.me/mwksongs")
                 ]
             ]
         ),
