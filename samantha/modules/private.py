@@ -16,7 +16,7 @@ def _start(client, message):
                     InlineKeyboardButton(
                         "🎬 Fɪʟᴍ Gʀᴏᴜᴩ", url=f"https://t.me/movieworldkdY"),
                     InlineKeyboardButton(
-                        "🎵 Mᴜꜱɪᴄ Gʀᴏᴜᴩ", url=f" https://t.me/mwksongs")
+                        "🎵 Mᴜꜱɪᴄ Gʀᴏᴜᴩ", url=f"https://t.me/mwksongs")
                 ],[
                     InlineKeyboardButton(
                         "👨‍🔬 My Dᴇᴠ", url=f"https://t.me/shamilnelli"), 
@@ -74,7 +74,7 @@ def help_answer(client, callback_query):
 def map(pos):
     if(pos==1):
         button = [
-            [InlineKeyboardButton(text = '▶️', callback_data = "help+2")]
+            [InlineKeyboardButton("▶️ Main Menu", url=f"https://t.me/shamilXsamanthabot?start")]
         ]
     elif(pos==len(tr.HELP_MSG)-1):
         url = f"https://t.me/redbullfed"
