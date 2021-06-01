@@ -15,7 +15,7 @@ bot = Client(
     Config.API_ID,
     Config.API_HASH,
     bot_token=Config.BOT_TOKEN,
-    plugins=dict(root="mwkmusics")
+    plugins=dict(root="mwkmusic")
 )
 async def main():
     async with bot:
