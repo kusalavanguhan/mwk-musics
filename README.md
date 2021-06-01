@@ -1,8 +1,6 @@
 # Mwk - Musics
 Powerfull VC music streamer Radio bot for tg
 
-<h2 align="centre">MwK Musics 🎵</h2>
-
 ## Deploy
 
 #### The Easy Way
