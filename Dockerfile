@@ -11,9 +11,9 @@ RUN python -m pip install wheel Pyrogram TgCrypto
 RUN python -m pip install pytgcalls ffmpeg-python psutil
 RUN python -m pip install tgintegration youtube-dl youtube_search requests
 
-RUN wget -q https://github.com/shamilhabeebnelli/mwk-musics/archive/safone.tar.gz && tar xf safone.tar.gz && rm safone.tar.gz
+RUN wget -q https://github.com/shamilhabeebnelli/mwk-musics/archive/mwk-musics.tar.gz && tar xf mwk-musics.tar.gz && rm mwk-musics.tar.gz
 
-WORKDIR /mwk-musics-mwkmusics
+WORKDIR /mwk-musics-mwk-musics
 CMD python3 main.py
 
 # docker build -t tgcalls .
