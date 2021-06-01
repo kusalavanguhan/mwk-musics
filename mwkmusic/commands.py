@@ -6,8 +6,10 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Samantha 😌** \nA Private Group Manager Bot Designed for Some Specific Groups... 🤷‍♀️\nOnly My Dev can manage me... 😉\nDo You Know A secret... **"im a different bot"**\nMade with ❤️ By @shamilnelli!"
-HELP = "**Do You Want Help... Huh!!! 🤭**"
+HOME_TEXT = """
+👋🏻 **Hi [{}](tg://user?id={})**,\nI'm **Samantha 😌** \nA Private Group Manager Bot Designed for Some Specific Groups... 🤷‍♀️\nOnly My Dev can manage me... 😉\nDo You Know A secret... **"im a different bot"**\nMade with ❤️ By @shamilnelli!"
+HELP = "**Do You Want Help... Huh!!! 🤭**
+"""
 
 @Client.on_message(filters.command('start'))
 async def start(client, message):
