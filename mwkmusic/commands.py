@@ -19,11 +19,11 @@ async def start(client, message):
         InlineKeyboardButton('MUSIC GROUP', url='https://t.me/mwksongs'),
     ],
     [
-        InlineKeyboardButton('UPDATES CHANNEL, url='https://t.me/mwklinks'),
+        InlineKeyboardButton('UPDATES CHANNEL', url='https://t.me/mwklinks'),
         InlineKeyboardButton('TECH GROUP', url='https://T.me/redbullfed'),
     ],
     [
-        InlineKeyboardButton('FILM UPDATES, url='https://t.me/redbull_status'),
+        InlineKeyboardButton('FILM UPDATES', url='https://t.me/redbull_status'),
         InlineKeyboardButton('DEVELOPER', url='https://t.me/shamilnelli'),
     ],
     [
