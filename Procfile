@@ -1,1 +1,1 @@
-Safone: python3 main.py
+mwk-musics: python3 main.py
