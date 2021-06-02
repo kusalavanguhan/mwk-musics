@@ -7,7 +7,7 @@ from pyrogram import Client, filters
 
 
 HOME_TEXT = """
-👋🏻 **Hi [{}](tg://user?id={})**,\nI'm **Samantha 😌** \nA Private Group Manager Bot Designed for Some Specific Groups... 🤷‍♀️\nOnly My Dev can manage me... 😉\nDo You Know A secret... **"im a different bot"**\nMade with ❤️ By @shamilnelli!"
+👋🏻 **Hi [{}](tg://user?id={})**,\nI'm **Tg Vc Music Radio Player Bot**\nHit /help to know how to use me\nMade with ❤️ By @shamilnelli!"
 """
 
 HELP = """
