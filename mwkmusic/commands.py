@@ -7,7 +7,7 @@ from pyrogram import Client, filters
 
 
 HOME_TEXT = """
-👋🏻 **Hi [{}](tg://user?id={})**,\nI'm **Tg Vc Music Radio Player Bot**\nHit /help to know how to use me\nMade with ❤️ By @shamilnelli!"
+👋🏻 **Hi [{}](tg://user?id={})**,\nI'm ** Samantha Bot**\nHit /help to know how to use me\nMade with ❤️ By @Thalapathy_off"
 """
 
 HELP = """
@@ -37,22 +37,22 @@ HELP = """
 \u2022 `/unmute` unmute the VC userbot
 \u2022 `/restart` restart the bot
 
-👉 **Developer: @shamilnelli** 💞
+👉 **Developer: @Thalapathy_off** 💞
 """
 
 @Client.on_message(filters.command('start'))
 async def start(client, message):
     buttons = [
        [
-        InlineKeyboardButton('UPDATES CHANNEL', url='https://t.me/mwklinks'),
-        InlineKeyboardButton('SUPPORT GROUP', url='https://T.me/redbullfed'),
+        InlineKeyboardButton('CHANNEL1', url='https://t.me/Tamil_Tentkotta'),
+        InlineKeyboardButton('SUPPORT GROUP', url=https://t.me/Tentkottagroup'),
     ],
     [
-        InlineKeyboardButton('DONATE', url='https://t.me/shamilhelpbot'),
-        InlineKeyboardButton('DEVELOPER', url='https://t.me/shamilnelli'),
+        InlineKeyboardButton('Channel 2', url='https://t.me/joinchat/fsaUd25r9z5jYmZl'),
+        InlineKeyboardButton('DEVELOPER', url='https://t.me/Thalapathy_off'),
     ],
     [
-        InlineKeyboardButton('⚙️ SOURCE CODE ⚙️', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+        InlineKeyboardButton('⚙️ SOURCE CODE ⚙️', url='https://t.me/Thalapathy_off'),
         
     ]
     ]
